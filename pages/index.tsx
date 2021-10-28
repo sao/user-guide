@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <p className={styles.metaData}>
           <ul>
             <li>&#127760; 45.5152° N, 122.6784° W</li>
-            <li>&#128337; <a href="https://time.is/Portland,_Oregon" target="_blank">Pacific Standard Time</a></li>
+            <li>&#128337; <a href="https://time.is/Portland,_Oregon" target="_blank" rel="noreferrer">Pacific Standard Time</a></li>
           </ul>
         </p>
 
