@@ -39,6 +39,9 @@ const Home: NextPage = () => {
                 There are two main buckets I use when thinking about communication. Short form communication is short, ephemeral, and not meant to be very durable. On the other side, theres long form communication. Documentation, narratives, and storytelling are the things I use to align
               </p>
             <h2>Collaboration</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis consectetur tortor, non pellentesque leo laoreet a. Nunc tincidunt egestas risus eu cursus. Aenean vel massa vel nulla ultrices ultrices. Vivamus facilisis blandit sollicitudin. Duis sed quam cursus, ultrices ex a, ullamcorper magna. Nulla facilisi. Maecenas porttitor turpis a ex luctus, at vehicula orci facilisis. Nulla commodo nisl a neque gravida, id gravida eros suscipit. Donec gravida massa nulla, vitae pharetra lorem tempus id. Quisque nisl leo, mattis sed dignissim a, aliquet quis ligula. Morbi egestas, ex in iaculis rutrum, ipsum sapien mattis diam, in sollicitudin erat sem sed magna.
+              </p>
             <h2>Feedback</h2>
               <p>When giving feedback, I like to be direct. Sometimes I will hold feedback (never for more than 24 hours), so that I can make sure my feedback is thoughtful and actionable. Context is important to me when I craft feedback and I always try to check in to ensure my feedback has landed the way I've intended.</p>
               <p>When receiving feedback, I expect it to be direct. With critical feedback, I prefer it to be delivered 1-on-1 and would love to hear some examples of when you’ve observed the behavior. I’m not perfect nor do I know everything. I’m here to listen and learn.</p>
@@ -53,21 +56,23 @@ const Home: NextPage = () => {
               <li>&#127890; Never stop learning</li>
             </ul>
             <h2>Key Strengths</h2>
+              <h3>Strength 1</h3>
+              <h3>Strength 2</h3>
+              <h3>Strength 3</h3>
             <h2>Growth Areas</h2>
-            <p>
-
-            </p>
-            <p>testyy</p>
+              <h3>Growth Area 1</h3>
+              <h3>Growth Area 2</h3>
+              <h3>Growth Area 3</h3>
           </div>
         </main>
         <footer className={styles.footer}>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://etherscan.io/address/silassao.eth"
             target="_blank"
             rel="noopener noreferrer"
           >
             Powered by {' '}
-            <span className={styles.logo}>
+            <span className={styles.eth}>
               <Image src="/eth.svg" alt="Vercel Logo" width={16} height={16} />
             </span>
           </a>
