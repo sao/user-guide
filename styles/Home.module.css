@@ -1,5 +1,8 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main {
@@ -9,7 +12,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  max-width: 640px;
+}
+
+.metadata ul {
+  margin: 0;
+  padding: 0;
+}
+
+.metadata li {
+  list-style: none;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.metadata li a {
+  text-decoration: underline;
 }
 
 .footer {
@@ -47,7 +65,7 @@
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
@@ -85,7 +103,6 @@
   color: inherit;
   font-size: 1.25em;
   margin-bottom: 1em;
-  max-width: 300px;
   padding: 1.5rem;
   text-align: left;
   text-decoration: none;
